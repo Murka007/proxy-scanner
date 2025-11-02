@@ -1,0 +1,28 @@
+{
+    "name": "proxy-scanner",
+    "author": "Murka",
+    "version": "1.1",
+    "description": "Quickly scans a list of proxies and saves results",
+    "license": "MIT",
+    "type": "module",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "proxy",
+        "scanner",
+        "checker",
+        "requests",
+        "socks5",
+        "http",
+        "websocket",
+        "io"
+    ],
+    "devDependencies": {
+        "axios": "^1.13.1",
+        "socks-proxy-agent": "^8.0.5",
+        "ws": "^8.18.3"
+    }
+}
